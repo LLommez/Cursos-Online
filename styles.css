@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Banner Principal */
+.banner {
+    background-image: url('banner.jpg'); /* Adicione uma imagem de banner adequada */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+    text-align: center;
+    color: #000000;
+}
+
+.banner-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.banner-content .btn:hover {
+    background-color: #e76f51;
+}
+
+/* Seção Sobre */
+.about-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Seção de Cursos */
+.courses-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.courses-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.course .btn {
+    padding: 10px 20px;
+    background-color: #f4a261;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.course .btn:hover {
+    background-color: #e76f51;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content, .footer-social {
+    margin-bottom: 20px;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social ul li a:hover {
+    color: #f4a261;
+}
